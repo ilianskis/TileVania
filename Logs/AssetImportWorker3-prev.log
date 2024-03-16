@@ -1,0 +1,80 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 8044 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Илья\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Илья/CV/projects/TileVania!!
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57535
+Successfully changed project path to: D:/Илья/CV/projects/TileVania!!
+D:/Илья/CV/projects/TileVania!!
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5384] Host "[IP] 172.26.0.1 [Port] 0 [Flags] 2 [Guid] 3555424333 [EditorId] 3555424333 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-32PQPGV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5384] Host "[IP] 172.26.0.1 [Port] 0 [Flags] 2 [Guid] 3555424333 [EditorId] 3555424333 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-32PQPGV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+received signal from system: SIGSEGV
+Obtained 24 stack frames
+0x00007ff69066c77d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff690673339 (Unity) StackWalker::ShowCallstack
+0x00007ff6915e0003 (Unity) GetStacktrace
+0x00007ff690672376 (Unity) winutils::PrintStackTrace
+0x00007ff69066bdac (Unity) winutils::CrashHandler::DefaultSignalHandler
+0x00007ff6929e283e (Unity) seh_filter_exe
+0x00007ff692aa2b2c (Unity) `__scrt_common_main_seh'::`1'::filt$0
+0x00007ff6929af170 (Unity) _C_specific_handler
+0x00007ff9daf723df (ntdll) 
+0x00007ff9daf214a4 (ntdll) 
+0x00007ff9daf70f0e (ntdll) 
+0x00007ff68fee52ea (Unity) DynamicHeapAllocator::InitializeMemoryRegion
+0x00007ff68fee0240 (Unity) DynamicHeapAllocator::CreateTLSFBlock
+0x00007ff68fedf0eb (Unity) DynamicHeapAllocator::Allocate
+0x00007ff68feecb24 (Unity) DualThreadAllocator<DynamicHeapAllocator>::Allocate
+0x00007ff68fedf7c5 (Unity) MemoryManager::Allocate
+0x00007ff68fedea1d (Unity) operator new
+0x00007ff6900f9643 (Unity) RenderBufferManager::InitRenderBufferManager
+0x00007ff690240282 (Unity) InitializeEngineNoGraphics
+0x00007ff691184791 (Unity) Application::InitializeProject
+0x00007ff6915ea758 (Unity) WinMain
+0x00007ff69298cade (Unity) __scrt_common_main_seh
+0x00007ff9da817614 (KERNEL32) BaseThreadInitThunk
+0x00007ff9daf226a1 (ntdll) 
+
